@@ -1,5 +1,10 @@
 body {
   background: black;
   color: #7f0000;
-  font-family: Lucida Comsole, Courier New;
+  font-family: Lucida Console, Courier New;
+  line-height: 1;
+}
+
+h1 {
+  color: #bf0000;
 }
