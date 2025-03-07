@@ -3,8 +3,16 @@ body {
   color: #7f0000;
   font-family: Lucida Console, Courier New;
   line-height: 1;
+  animation-name: fade;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
 
 h1 {
   color: #bf0000;
+}
+
+@keyframes fade {
+  from: opacity: 1;
+  to: opacity: 0;
 }
